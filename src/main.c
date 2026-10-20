@@ -176,7 +176,7 @@ void restore_network() {
 
 int main(int argc, char *argv[]) {
     if (argc < 4) {
-        printf("Uso: sudo ./arpspoof_toggle <INTERFACE> <IP_DO_ALVO> <IP_DO_ROUTER>\n");
+        printf("Uso: ./arpspoof <INTERFACE> <IP_DO_ALVO> <IP_DO_ROUTER>\n");
         return 1;
     }
 
